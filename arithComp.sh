@@ -10,4 +10,9 @@ sum=$(echo $a $b $c | awk '{print $1+$2*$3}')
 
 sum2=$(echo $a $b $c | awk '{print $3+$1/$2}')
 
-sum3=$(echo $a $b $c | awk '{print $3*$1+$2}')
+sum3=$(echo $a $b $c | awk '{print $1*$2+$3}')
+
+sum4=$(echo $a $b $c | awk '{print $1%$2+$3}')
+
+
+
